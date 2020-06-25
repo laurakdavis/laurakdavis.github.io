@@ -21,9 +21,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!-- Typed.js library -->
-    <script src="node_modules/typed.js/lib/typed.min.js"></script>
-    <script src="src/assets/js/typed.js"></script>
-    <script src="assets/added-files/include.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+    <!-- Font Awesome Library -->
+    <script src="https://kit.fontawesome.com/59654bb23c.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="src/assets/css/theme.css">
 
@@ -43,6 +44,11 @@
 
         <!-- Navigation -->
       <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" id="navbarAbout" href="index.html" aria-haspopup="true" aria-expanded="false">
+            Home
+          </a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" id="navbarAbout" href="src/pages/about.html" aria-haspopup="true" aria-expanded="false">
             About
@@ -70,7 +76,7 @@
 
     <!-- WELCOME
     ================================================== -->
-    <section class="pb-2 pb-md-4">
+    <section class="pb-6">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-12 col-md-5 col-lg-6 order-md-2">
@@ -81,10 +87,12 @@
           </div>
           <div class="col-12 col-md-7 col-lg-6 order-md-1" data-aos="fade-up">
 
-            <!-- Heading -->
-            <h1 class="display-3 text-center text-md-left">
-              <span class="text-primary">Hi, I'm Laura</span>. <br>
-            </h1>
+<span id="typed"></span>
+            <!-- Heading <span id="typed"></span>-->
+            <div id="typed-strings">
+              <span class="text-primary"><h1 class="display-3 text-md-left">Hi, I'm Laura.</h1></span>          
+            </div>              
+
 
             <!-- Text -->
             <p class="lead text-center text-md-left text-muted mb-6 mb-lg-8">
@@ -107,19 +115,19 @@
 
     <!-- CTA
     ================================================== -->
-    <section class="py-4 py-md-8 bg-dark">
+    <section class="py-6 py-md-8 bg-dark">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-md-10 col-lg-8 text-center">
 
             <!-- Heading -->
-            <h2 class="display-5 text-white">
+            <h2 class="display-4 text-white">
                 I’m obsessed with helping game-changing companies build brand awareness, industry credibility and generate leads through distinct content created with your audience in mind.
             </h2>
 
             <!-- Button -->
             <a href="src/pages/work.html" class="btn btn-success lift">
-              Find out how<i class="fe fe-arrow-right"></i>
+              Find out how
             </a>
 
           </div>
@@ -132,20 +140,24 @@
     <section class="py-8 py-md-11 border-bottom">
       <div class="container">
         <div class="row">
+          <div class="col-12">
+            <h1>My Specialties</h1>
+          </div>
+
           <div class="col-12 col-md-4" data-aos="fade-up">
 
             <!-- Icon -->
             <div class="icon text-primary mb-3">
-              <include src="assets/img/icons/duotone-icons/General/Settings-1.svg"></include>
+              <i class="fas fa-laptop fa-2x"></i>
             </div>
 
             <!-- Heading -->
-            <h3>
+            <h3 class="text-center text-md-left">
               Blog Posts
             </h3>
 
             <!-- Text -->
-            <p class="text-muted mb-6 mb-md-0">
+            <p class="text-muted mb-6 mb-md-0 text-center text-md-left">
               An updated blog drives traffic to your site and brings awareness to your brand. I’ll conduct in-depth research to understand the ins and outs of your brand and your audience’s specific needs so I can craft content that converts, every time.
             </p>
 
@@ -154,16 +166,16 @@
 
             <!-- Icon -->
             <div class="icon text-primary mb-3">
-              <include src="assets/img/icons/duotone-icons/Layout/Layout-arrange.svg"></include>
+              <i class="fas fa-file-alt fa-2x"></i>
             </div>
 
             <!-- Heading -->
-            <h3>
+            <h3 class="text-center text-md-left">
               Case Studies
             </h3>
 
             <!-- Text -->
-            <p class="text-muted mb-6 mb-md-0">
+            <p class="text-muted mb-6 mb-md-0 text-center text-md-left">
               An effective case study is storytelling at its finest: how your client slayed their beasts by using your unbeatable services. I write engaging, thoroughly researched case studies backed by interviews and analytics.
             </p>
 
@@ -172,16 +184,16 @@
 
             <!-- Icon -->
             <div class="icon text-primary mb-3">
-              <include src="assets/img/icons/duotone-icons/Code/Code.svg"></include>
+              <i class="fas fa-book fa-2x"></i>
             </div>
 
             <!-- Heading -->
-            <h3>
+            <h3 class="text-center text-md-left">
               E-books
             </h3>
 
             <!-- Text -->
-            <p class="text-muted mb-0">
+            <p class="text-muted mb-0 text-center text-md-left">
               A surefire way to showcase your industry authority, e-books are also an excellent resource to provide your potential clients with a deeper understanding of what you do. Like in all my writing, you can expect your e-book to be thoroughly researched and consistent with your brand’s voice. 
             </p>
 
@@ -190,9 +202,9 @@
       </div> <!-- / .container -->
     </section>
 
-    <p class="mb-0">
-      Testing this out <span class="text-success" data-toggle="typed" data-options='{"strings": ["correct", "incorrect"]}'></span>
-    </p>
+
+
+
 
     <!-- FOOTER
     ================================================== -->
@@ -203,14 +215,27 @@
       </div>
     </div>
 
-    <!-- JAVASCRIPT
-    ================================================== -->
-    <!--<include src="partials/scripts.html"></include>-->
-    <div w3-include-html="src/partials/scripts.html"></div>
 
-    <script type="text/javascript">
-      includeHTML();
-    </script>
 
   </body>
 </html>
+
+<!--
+      stringsElement: '#typed-strings',
+
+    strings: [
+      'I write blog posts.',
+      'I write case studies.',
+      'I write e-books.'
+    ],
+
+-->
+
+<script>
+  var typed = new Typed('#typed', {
+    stringsElement: '#typed-strings',
+    loop: false,
+    showCursor: false,
+    typeSpeed: 50
+  });
+</script>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="180px" viewBox="0 0 1440 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>background-1</title>
+    <g id="background-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#08115F" x="0" y="0" width="1440" height="180"></rect>
+        <circle id="Oval" fill="#FF8F42" cx="1448.5" cy="-0.5" r="138.5"></circle>
+        <circle id="Oval-Copy" fill="#FF8F42" cx="840.5" cy="250.5" r="138.5"></circle>
+        <g id="Group" transform="translate(210.000000, -82.500000) scale(-1, -1) translate(-210.000000, 82.500000) translate(0.000000, -221.000000)" fill="#FF8F42">
+            <circle id="Oval-Copy-2" cx="138.5" cy="138.5" r="138.5"></circle>
+            <path d="M183.392497,7.49150075 C220.917588,22.2116432 234.357793,44.1079564 301.653337,44.1079564 C346.517034,44.1079564 385.930677,52.071971 419.894266,68 L93.0788028,68 C128.271205,17.8475722 158.375769,-2.32192756 183.392497,7.49150075 Z" id="Path-Copy"></path>
+        </g>
+        <path d="M885.392497,119.491501 C922.917588,134.211643 936.357793,156.107956 1003.65334,156.107956 C1048.51703,156.107956 1087.93068,164.071971 1121.89427,180 L795.078803,180 C830.271205,129.847572 860.375769,109.678072 885.392497,119.491501 Z" id="Path" fill="#FF8F42"></path>
+    </g>
+</svg>
