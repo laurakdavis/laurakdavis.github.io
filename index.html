@@ -10,12 +10,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
 
-    <!-- Bootstrap: Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
 
     <!-- Bootstrap: jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Bootstrap: Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!-- Bootstrap: Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -32,47 +32,50 @@
   
   <body>
 
+
     <!-- NAVBAR
     ================================================== -->
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <!-- Brand -->
+          <a class="navbar-brand" href="../index.html"><img src="src/assets/new-imgs/temp-logo.svg" class="navbar-brand-img" alt="..."></a>
+        
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarNavDropdown">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <!-- Brand -->
-        <a class="navbar-brand" href="../index.html">
-          <img src="src/assets/img/brand.svg" class="navbar-brand-img" alt="...">
-        </a>
-
-        <!-- Navigation -->
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" id="navbarAbout" href="index.html" aria-haspopup="true" aria-expanded="false">
-            Home
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="navbarAbout" href="src/pages/about.html" aria-haspopup="true" aria-expanded="false">
-            About
-          </a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link" id="navbarWork" href="src/pages/work.html" aria-haspopup="true" aria-expanded="false">
-            Work
-          </a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link" id="navbarServices" href="src/pages/services.html" aria-haspopup="true" aria-expanded="false">
-            Services
-          </a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link" id="navbarContact" href="src/pages/contact.html" aria-haspopup="true" aria-expanded="false">
-            Hire Me
-          </a>
-        </li>
-      </ul>
-
-      </div>
-    </nav>
+          <div class="collapse navbar-collapse" id="navbarToggle">
+              <!-- Navigation -->
+              <ul class="navbar-nav ml-auto" id="nav">
+                <li class="nav-item active">
+                  <a class="nav-link" id="navbarAbout" href="index.html" aria-haspopup="true" aria-expanded="false">
+                    Home
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="navbarAbout" href="src/pages/about.html" aria-haspopup="true" aria-expanded="false">
+                    About
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="navbarWork" href="src/pages/work.html" aria-haspopup="true" aria-expanded="false">
+                    Work
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="navbarServices" href="src/pages/services.html" aria-haspopup="true" aria-expanded="false">
+                    Services
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="navbarContact" href="src/pages/contact.html" aria-haspopup="true" aria-expanded="false">
+                    Hire Me
+                  </a>
+                </li>
+              </ul>
+          </div>
+      </nav> 
+    </div>
 
     <!-- WELCOME
     ================================================== -->
@@ -82,7 +85,9 @@
           <div class="col-12 col-md-5 col-lg-6 order-md-2">
 
             <!-- Image -->
-            <img src="src/assets/new-imgs/writer.svg" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0" alt="..." data-aos="fade-up" data-aos-delay="100">
+            <img src="src/assets/new-imgs/writer.gif" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0" alt="..." data-aos="fade-up" data-aos-delay="100">
+
+
 
           </div>
           <div class="col-12 col-md-7 col-lg-6 order-md-1" data-aos="fade-up">
@@ -90,12 +95,12 @@
 <span id="typed"></span>
             <!-- Heading <span id="typed"></span>-->
             <div id="typed-strings">
-              <span class="text-primary"><h1 class="display-3 text-md-left">Hi, I'm Laura.</h1></span>          
+              <span class="text-primary"><h1 class="display-3 text-md-left text-center">Hi, I'm Laura.</h1></span>          
             </div>              
 
 
             <!-- Text -->
-            <p class="lead text-center text-md-left text-muted mb-6 mb-lg-8">
+            <p class="lead text-center text-md-left text-muted-80 mb-6 mb-lg-8">
               I’m a freelance copywriter and I thrive when writing thorough, research-backed blog posts about digital marketing and content creation for B2B SaaS companies.
             </p>
 
@@ -137,17 +142,17 @@
 
     <!-- FEATURES
     ================================================== -->
-    <section class="py-8 py-md-11 border-bottom">
+    <section class="py-6 py-md-8 border-bottom">
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h1>My Specialties</h1>
+            <h1 class="text-center text-md-left">My Specialties</h1>
           </div>
 
           <div class="col-12 col-md-4" data-aos="fade-up">
 
             <!-- Icon -->
-            <div class="icon text-primary mb-3">
+            <div class="icon mb-3 text-center text-md-left">
               <i class="fas fa-laptop fa-2x"></i>
             </div>
 
@@ -157,7 +162,7 @@
             </h3>
 
             <!-- Text -->
-            <p class="text-muted mb-6 mb-md-0 text-center text-md-left">
+            <p class="mb-6 mb-md-0 text-center text-md-left">
               An updated blog drives traffic to your site and brings awareness to your brand. I’ll conduct in-depth research to understand the ins and outs of your brand and your audience’s specific needs so I can craft content that converts, every time.
             </p>
 
@@ -165,7 +170,7 @@
           <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="50">
 
             <!-- Icon -->
-            <div class="icon text-primary mb-3">
+            <div class="icon mb-3 text-center text-md-left">
               <i class="fas fa-file-alt fa-2x"></i>
             </div>
 
@@ -175,7 +180,7 @@
             </h3>
 
             <!-- Text -->
-            <p class="text-muted mb-6 mb-md-0 text-center text-md-left">
+            <p class="mb-6 mb-md-0 text-center text-md-left">
               An effective case study is storytelling at its finest: how your client slayed their beasts by using your unbeatable services. I write engaging, thoroughly researched case studies backed by interviews and analytics.
             </p>
 
@@ -183,7 +188,7 @@
           <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="100">
 
             <!-- Icon -->
-            <div class="icon text-primary mb-3">
+            <div class="icon mb-3 text-center text-md-left">
               <i class="fas fa-book fa-2x"></i>
             </div>
 
@@ -193,7 +198,7 @@
             </h3>
 
             <!-- Text -->
-            <p class="text-muted mb-0 text-center text-md-left">
+            <p class="mb-0 text-center text-md-left">
               A surefire way to showcase your industry authority, e-books are also an excellent resource to provide your potential clients with a deeper understanding of what you do. Like in all my writing, you can expect your e-book to be thoroughly researched and consistent with your brand’s voice. 
             </p>
 
@@ -236,6 +241,6 @@
     stringsElement: '#typed-strings',
     loop: false,
     showCursor: false,
-    typeSpeed: 50
+    typeSpeed: 70
   });
 </script>

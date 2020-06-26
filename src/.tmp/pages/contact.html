@@ -38,6 +38,11 @@
         <!-- Navigation -->
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
+          <a class="nav-link" id="navbarAbout" href="../../index.html" aria-haspopup="true" aria-expanded="false">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" id="navbarAbout" href="about.html" aria-haspopup="true" aria-expanded="false">
             About
           </a>
@@ -62,38 +67,120 @@
       </div>
     </nav>
 
-    <section class="pt-4 pt-md-11">
+    <section>
+      <div class="bg-cover" style="background-image: url(../assets/new-imgs/background-1.svg);">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-12 col-md-5 col-lg-6 order-md-2">
-
-            <!-- Image -->
-            <img src="src/assets/new-imgs/writer.svg" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0" alt="..." data-aos="fade-up" data-aos-delay="100">
-
-          </div>
-          <div class="col-12 col-md-7 col-lg-6 order-md-1" data-aos="fade-up">
+          <div class="col-12 col-md-7 col-lg-6 order-md-1 m-8" data-aos="fade-up">
 
             <!-- Heading -->
             <h1 class="display-3 text-center text-md-left">
-              <span class="text-primary">Hire Me</span>. <br>
-              Let's work together.
+              <span class="text-primary">Ready to get started</span>? <br>
             </h1>
 
             <!-- Text -->
             <p class="lead text-center text-md-left text-muted mb-6 mb-lg-8">
-              Build a beautiful, modern website with flexible Bootstrap components built from scratch.
+              Drop me a line and I’ll be in touch within 48 hours.
             </p>
 
-            <!-- Buttons -->
-            <div class="text-center text-md-left">
-              <a href="src/pages/about.html" class="btn btn-primary-soft lift">
-                About Me
-              </a>
-            </div>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </div>
+    </section>
+
+    <!-- FORM
+    ================================================== -->
+    <section class="py-6">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+            
+            <!-- Heading -->
+            <h2 class="font-weight-bold">
+              Let's get to work!
+            </h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-muted mb-7 mb-md-9">
+              Let me know how I can best help you and I'll do my very best.
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-12 col-lg-10">
+            
+            <!-- Form -->
+            <form action="email-form.php" method="post">
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <div class="form-group mb-5">
+                    
+                    <!-- Label -->
+                    <label for="contactName">
+                      Full name
+                    </label>
+
+                    <!-- Input -->
+                    <input type="text" class="form-control" id="contactName" placeholder="Full name">
+
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="form-group mb-5">
+                    
+                    <!-- Label -->
+                    <label for="contactEmail">
+                      Email
+                    </label>
+
+                    <!-- Input -->
+                    <input type="email" class="form-control" id="contactEmail" placeholder="hello@domain.com">
+
+                  </div>
+                </div>
+              </div> <!-- / .row -->
+              <div class="row">
+                <div class="col-12">
+                  <div class="form-group mb-7 mb-md-9">
+                    
+                    <!-- Label -->
+                    <label for="contactMessage">
+                      What can I help you with?
+                    </label>
+
+                    <!-- Input -->
+                    <textarea class="form-control" id="contactMessage" rows="5" placeholder="Tell me what I can help you with!"></textarea>
+
+                  </div>
+                </div>
+              </div> <!-- / .row -->
+              <div class="row justify-content-center">
+                <div class="col-auto">
+                  
+                  <!-- Submit -->
+                  <button type="submit" class="btn btn-primary lift">
+                    Send message
+                  </button>
+
+                </div>
+              </div> <!-- / .row -->
+            </form>
+
           </div>
         </div> <!-- / .row -->
       </div> <!-- / .container -->
     </section>
+
+    <!-- FOOTER
+    ================================================== -->
+    <div class="container">
+      <div class="pt-2 col-lg-12 text-center">
+        <h4>&#169 2020 Laura K Davis Writing</h4>
+        <h6>Coded by <a href="https://elizmdavis.design/" target="_blank">Elizabeth Davis</a></h6>
+      </div>
+    </div>
 
   </body>
 </html>

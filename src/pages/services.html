@@ -26,72 +26,73 @@
 
     <!-- NAVBAR
     ================================================== -->
-    <nav class="navbar navbar-expand-lg @@classList">
-      <div class="container">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <!-- Brand -->
+          <a class="navbar-brand" href="../../index.html"><img src="../assets/new-imgs/temp-logo.svg" class="navbar-brand-img" alt="..."></a>
+        
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarNavDropdown">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <!-- Brand -->
-        <a class="navbar-brand" href="../../index.html">
-          <!--<img src="@@webRoot/assets/img/brand.svg" class="navbar-brand-img" alt="...">-->
-          <h1>Laura K Davis</h1>
-        </a>
+          <div class="collapse navbar-collapse" id="navbarToggle">
+              <!-- Navigation -->
+              <ul class="navbar-nav ml-auto" id="nav">
+                <li class="nav-item active">
+                  <a class="nav-link" id="navbarAbout" href="../../index.html" aria-haspopup="true" aria-expanded="false">
+                    Home
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="navbarAbout" href="about.html" aria-haspopup="true" aria-expanded="false">
+                    About
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="navbarWork" href="work.html" aria-haspopup="true" aria-expanded="false">
+                    Work
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="navbarServices" href="services.html" aria-haspopup="true" aria-expanded="false">
+                    Services
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="navbarContact" href="contact.html" aria-haspopup="true" aria-expanded="false">
+                    Hire Me
+                  </a>
+                </li>
+              </ul>
+          </div>
+      </nav> 
+    </div>
 
-        <!-- Navigation -->
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" id="navbarAbout" href="../../index.html" aria-haspopup="true" aria-expanded="false">
-            Home
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="navbarAbout" href="about.html" aria-haspopup="true" aria-expanded="false">
-            About
-          </a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link" id="navbarWork" href="work.html" aria-haspopup="true" aria-expanded="false">
-            Work
-          </a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link" id="navbarServices" href="services.html" aria-haspopup="true" aria-expanded="false">
-            Services
-          </a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link" id="navbarContact" href="contact.html" aria-haspopup="true" aria-expanded="false">
-            Hire Me
-          </a>
-        </li>
-      </ul>
-
-      </div>
-    </nav>
-
+    <!-- SECTION HEADER -->
     <section>
       <div class="bg-cover" style="background-image: url(../assets/new-imgs/background-1.svg);">
         <div class="container">
-        <div class="row align-items-center">
-          <div class="col-12 col-md-7 col-lg-6 my-6" data-aos="fade-up">
+            <div class="row align-items-center">
+              <div class="col-12 col-md-7 col-lg-6 m-6" data-aos="fade-up">
 
-            
-            <!-- Heading -->
-            <h1 class="display-3 text-center text-md-left">
-              <span class="text-primary">My Services</span>. <br>
-            </h1>
+                <!-- Heading -->
+                <h1 class="display-3 text-center text-md-left">
+                  <span class="text-primary">My Services.</span>
+                </h1>
 
-            <!-- Text -->
-            <p class="lead text-center text-md-left text-muted">
-              If you’re a B2B SaaS company interested in driving traffic to your site and generating leads for your business, I’m sure we’ll get along. 
-            </p>
+                <!-- Text -->
+                <p class="lead text-center text-md-left text-white-80">
+                  If you’re a B2B SaaS company interested in driving traffic to your site and generating leads for your business, I’m sure we’ll get along. 
+                </p>
 
-          </div>
-        </div>
+              </div>
+            </div>
         </div> <!-- / .row -->
       </div> <!-- / .container -->
     </section>
 
     <!-- SERVICES -->
-    <section class="py-4">
+    <section class="pt-8">
       <div class="container">
         <h1 class="display-3 text-left">Services</h1>
 
@@ -99,7 +100,7 @@
           <div class="card-deck my-6">
             
             <!-- CARD 1: BLOG POSTS -->
-            <div class="col-12 col-xl-4 col-sm-4">
+            <div class="col-md-12 col-xl-4 d-flex">
                   
               <!-- Card -->
               <div class="card m-6 m-xl-0 shadow-dark h-100">
@@ -125,7 +126,7 @@
                   </h3>
 
                   <!-- Text -->
-                  <p class="mb-0 text-muted">
+                  <p class="mb-0 text-muted-80">
                     I write thoroughly researched blog posts designed to drive traffic and new business.
                   </p>
 
@@ -142,7 +143,7 @@
 
             <!-- SERVICES CARDS -->
             <!-- CARD 2: CASE STUDIES -->
-            <div class="col-12 col-xl-4 col-sm-4">
+            <div class="col-md-12 col-xl-4 d-flex">
                   
               <!-- Card -->
               <div class="card m-6 m-xl-0 shadow-dark h-100">
@@ -168,7 +169,7 @@
                 </h3>
 
                 <!-- Text -->
-                <p class="mb-0 text-muted">
+                <p class="mb-0 text-muted-80">
                   Case studies tell the tale of how your services addressed a specific customer’s pain point(s) and help drive business through social proof that your product really works.
                 </p>
 
@@ -182,7 +183,7 @@
 
             <!-- SERVICES CARDS -->
             <!-- CARD 3: E-BOOKS -->
-            <div class="col-12 col-xl-4 col-sm-4">
+            <div class="col-md-12 col-xl-4 d-flex">
                   
               <!-- Card -->
               <div class="card m-6 m-xl-0 shadow-dark h-100">
@@ -208,7 +209,7 @@
                 </h3>
 
                 <!-- Text -->
-                <p class="mb-0 text-muted">
+                <p class="mb-0 text-muted-80">
                   E-books can vary greatly in length depending on the topics you want to cover and how in-depth you want the content to go.
                 </p>
 
@@ -239,8 +240,8 @@
           <div class="col-12">
             <a name="included_blogs"></a>
             <h3 class="font-weight-bold">Blog Posts</h3>
-            <p>I write thoroughly researched blog posts designed to drive traffic and new business.  Blog posts range in length depending on your company’s unique needs (see rates below). Each blog posts includes:
-              <ul>
+            <p class="text-muted-80">I write thoroughly researched blog posts designed to drive traffic and new business.  Blog posts range in length depending on your company’s unique needs (see rates below). Each blog posts includes:
+              <ul class="text-muted-80">
                 <li>Search engine optimization based on your company’s desired keywords</li>
                 <li>One week or less turnaround time</li>
                 <li>Up to two revisions</li>
@@ -266,8 +267,8 @@
           <div class="col-12">
             <a name="included_studies"></a>
             <h3 class="font-weight-bold">Case Studes</h3>
-            <p>Case studies tell the tale of how your services addressed a specific customer’s pain point(s) and help drive business through social proof that your product really works. Included in your case study package:
-              <ul>
+            <p class="text-muted-80">Case studies tell the tale of how your services addressed a specific customer’s pain point(s) and help drive business through social proof that your product really works. Included in your case study package:
+              <ul class="text-muted-80">
                 <li>Up to 2,000 words</li>
                 <li>1 Interview with company</li>
                 <li>1 Interview with company’s client</li>
@@ -294,8 +295,8 @@
           <div class="col-12">
             <a name="included_ebooks"></a>
             <h3 class="font-weight-bold">E-Books</h3>
-            <p>E-books can vary greatly in length depending on the topics you want to cover and how in-depth you want the content to go. Therefore, we will work together and use your goals to determine how many pages and/or words will be needed for your project. Included in your e-book package:
-              <ul>
+            <p class="text-muted-80">E-books can vary greatly in length depending on the topics you want to cover and how in-depth you want the content to go. Therefore, we will work together and use your goals to determine how many pages and/or words will be needed for your project. Included in your e-book package:
+              <ul class="text-muted-80">
                 <li>One detailed outline submitted for your approval</li>
                 <li>Up to three interviews with company leaders or subject matter experts</li>
                 <li>Transcripts from completed interviews</li>

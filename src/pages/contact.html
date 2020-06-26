@@ -26,60 +26,63 @@
 
     <!-- NAVBAR
     ================================================== -->
-    <nav class="navbar navbar-expand-lg @@classList">
-      <div class="container">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <!-- Brand -->
+          <a class="navbar-brand" href="../../index.html"><img src="../assets/new-imgs/temp-logo.svg" class="navbar-brand-img" alt="..."></a>
+        
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarNavDropdown">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <!-- Brand -->
-        <a class="navbar-brand" href="../../index.html">
-          <!--<img src="@@webRoot/assets/img/brand.svg" class="navbar-brand-img" alt="...">-->
-          <h1>Laura K Davis</h1>
-        </a>
+          <div class="collapse navbar-collapse" id="navbarToggle">
+              <!-- Navigation -->
+              <ul class="navbar-nav ml-auto" id="nav">
+                <li class="nav-item active">
+                  <a class="nav-link" id="navbarAbout" href="../../index.html" aria-haspopup="true" aria-expanded="false">
+                    Home
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="navbarAbout" href="about.html" aria-haspopup="true" aria-expanded="false">
+                    About
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="navbarWork" href="work.html" aria-haspopup="true" aria-expanded="false">
+                    Work
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="navbarServices" href="services.html" aria-haspopup="true" aria-expanded="false">
+                    Services
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="navbarContact" href="contact.html" aria-haspopup="true" aria-expanded="false">
+                    Hire Me
+                  </a>
+                </li>
+              </ul>
+          </div>
+      </nav> 
+    </div>
 
-        <!-- Navigation -->
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" id="navbarAbout" href="../../index.html" aria-haspopup="true" aria-expanded="false">
-            Home
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="navbarAbout" href="about.html" aria-haspopup="true" aria-expanded="false">
-            About
-          </a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link" id="navbarWork" href="work.html" aria-haspopup="true" aria-expanded="false">
-            Work
-          </a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link" id="navbarServices" href="services.html" aria-haspopup="true" aria-expanded="false">
-            Services
-          </a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link" id="navbarContact" href="contact.html" aria-haspopup="true" aria-expanded="false">
-            Hire Me
-          </a>
-        </li>
-      </ul>
-
-      </div>
-    </nav>
-
+    <!-- IMAGE HEADER
+    ================================================== -->
     <section>
       <div class="bg-cover" style="background-image: url(../assets/new-imgs/background-1.svg);">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-12 col-md-7 col-lg-6 order-md-1 m-8" data-aos="fade-up">
+          <div class="col-12 col-md-7 col-lg-6 order-md-1 m-6" data-aos="fade-up">
 
             <!-- Heading -->
             <h1 class="display-3 text-center text-md-left">
-              <span class="text-primary">Ready to get started</span>? <br>
+              <span class="text-primary">Ready to get started?</span><br>
             </h1>
 
             <!-- Text -->
-            <p class="lead text-center text-md-left text-muted mb-6 mb-lg-8">
+            <p class="lead text-center text-md-left text-white-80">
               Drop me a line and I’ll be in touch within 48 hours.
             </p>
 

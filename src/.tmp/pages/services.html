@@ -5,15 +5,15 @@
   <head>
     <include src="partials/head.html"></include>
 
-      <!-- Meta Tags -->
+    <!-- Meta Tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
 
-      <!-- Bootstrap: Latest compiled and minified CSS -->
+    <!-- Bootstrap: Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 
-      <!-- Bootstrap: jQuery library -->
+    <!-- Bootstrap: jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- Bootstrap: Latest compiled JavaScript -->
@@ -37,6 +37,11 @@
 
         <!-- Navigation -->
       <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" id="navbarAbout" href="../../index.html" aria-haspopup="true" aria-expanded="false">
+            Home
+          </a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" id="navbarAbout" href="about.html" aria-haspopup="true" aria-expanded="false">
             About
@@ -62,59 +67,95 @@
       </div>
     </nav>
 
-    <section class="pt-4 pt-md-11">
-      <div class="container">
+    <section>
+      <div class="bg-cover" style="background-image: url(../assets/new-imgs/background-1.svg);">
+        <div class="container">
         <div class="row align-items-center">
-          <div class="col-12 col-md-5 col-lg-6 order-md-2">
+          <div class="col-12 col-md-7 col-lg-6 my-6" data-aos="fade-up">
 
-            <!-- Image -->
-            <img src="src/assets/new-imgs/writer.svg" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0" alt="..." data-aos="fade-up" data-aos-delay="100">
-
-          </div>
-          <div class="col-12 col-md-7 col-lg-6 order-md-1" data-aos="fade-up">
-
+            
             <!-- Heading -->
             <h1 class="display-3 text-center text-md-left">
               <span class="text-primary">My Services</span>. <br>
-              Check out all of these cool things I do.
             </h1>
 
             <!-- Text -->
-            <p class="lead text-center text-md-left text-muted mb-6 mb-lg-8">
-              Build a beautiful, modern website with flexible Bootstrap components built from scratch.
+            <p class="lead text-center text-md-left text-muted">
+              If you’re a B2B SaaS company interested in driving traffic to your site and generating leads for your business, I’m sure we’ll get along. 
             </p>
 
           </div>
+        </div>
         </div> <!-- / .row -->
       </div> <!-- / .container -->
     </section>
 
     <!-- SERVICES -->
-    <section class="pt-4 pt-md-11">
+    <section class="py-4">
       <div class="container">
-        <div class="row align-items-center">
+        <h1 class="display-3 text-left">Services</h1>
 
-          <div class="col-12" data-aos="fade-up">
-            <h1 class="display-3 text-left">
-              Services
-            </h1>
-          </div>
-          
           <!-- SERVICES CARDS -->
-          <!-- CARD 1: BLOG POSTS -->
-          <div class="col-12 col-xl-4">
-                
-            <!-- Card -->
-            <div class="card mb-6 mb-xl-0 shadow-light-lg">
+          <div class="card-deck my-6">
+            
+            <!-- CARD 1: BLOG POSTS -->
+            <div class="col-12 col-xl-4 col-sm-4">
+                  
+              <!-- Card -->
+              <div class="card m-6 m-xl-0 shadow-dark h-100">
 
-              <div class="text-center mb-3">
+                <!-- Badge -->
+                <div class="text-center m-3">
+                  <span class="badge badge-pill badge-primary-soft">
+                    <span class="h6 text-uppercase">Starting at $200</span>
+                  </span>
+                </div>
+              
+                <!-- Image -->
+                <a class="card-img-top">
+                  <img src="../assets/img/photos/photo-7.jpg" alt="..." class="img-fluid">
+                </a>
+                
+                <!-- Body -->
+                <a class="card-body">
+
+                  <!-- Heading -->
+                  <h3>
+                    Blog Posts
+                  </h3>
+
+                  <!-- Text -->
+                  <p class="mb-0 text-muted">
+                    I write thoroughly researched blog posts designed to drive traffic and new business.
+                  </p>
+
+                </a>
+
+                <a class="card-footer">
+                  <a href="contact.html" class="btn btn-primary-soft mx-5">Book Now</a>
+                  <a href="#included_blogs" class="text-center my-3">What's included?</a>
+                </a>
+
+
+              </div>
+            </div>
+
+            <!-- SERVICES CARDS -->
+            <!-- CARD 2: CASE STUDIES -->
+            <div class="col-12 col-xl-4 col-sm-4">
+                  
+              <!-- Card -->
+              <div class="card m-6 m-xl-0 shadow-dark h-100">
+
+              <!-- Badge -->
+              <div class="text-center m-3">
                 <span class="badge badge-pill badge-primary-soft">
-                  <span class="h6 text-uppercase">Starting at $200</span>
+                  <span class="h6 text-uppercase">Starting at $500</span>
                 </span>
               </div>
-            
-              <!-- Icon -->
-              <a class="card-img-top" href="#!">
+              
+              <!-- Image -->
+              <a class="card-img-top">
                 <img src="../assets/img/photos/photo-7.jpg" alt="..." class="img-fluid">
               </a>
               
@@ -123,109 +164,69 @@
 
                 <!-- Heading -->
                 <h3>
-                  Blog Posts
+                  Case Studes
                 </h3>
 
                 <!-- Text -->
                 <p class="mb-0 text-muted">
-                  I write thoroughly researched blog posts designed to drive traffic and new business.
+                  Case studies tell the tale of how your services addressed a specific customer’s pain point(s) and help drive business through social proof that your product really works.
                 </p>
 
-                <a href="work.html" class="btn btn-primary-soft m-5">Book Now</a>
-                <a href="#included_blogs" class="text-center mb-4">What's included?</a>
+                <a href="contact.html" class="btn btn-primary-soft mx-5">Book Now</a>
+                <a href="#included_studies" class="text-center my-3">What's included?</a>
 
               </a>
 
+              </div>
             </div>
-          </div>
 
-          <!-- SERVICES CARDS -->
-          <!-- CARD 2: CASE STUDIES -->
-          <div class="col-12 col-xl-4 d-flex">
-                
-            <!-- Card -->
-            <div class="card mb-6 mb-xl-0 shadow-light-lg">
+            <!-- SERVICES CARDS -->
+            <!-- CARD 3: E-BOOKS -->
+            <div class="col-12 col-xl-4 col-sm-4">
+                  
+              <!-- Card -->
+              <div class="card m-6 m-xl-0 shadow-dark h-100">
 
-            <!-- Badge -->
-            <div class="text-center mb-3">
-              <span class="badge badge-pill badge-primary-soft">
-                <span class="h6 text-uppercase">Starting at $400</span>
-              </span>
-            </div>
-            
-            <!-- Icon -->
-            <a class="card-img-top" href="#!">
-              <img src="../assets/img/photos/photo-7.jpg" alt="..." class="img-fluid">
-            </a>
-            
-            <!-- Body -->
-            <a class="card-body">
-
-              <!-- Heading -->
-              <h3>
-                Case Studes
-              </h3>
-
-              <!-- Text -->
-              <p class="mb-0 text-muted">
-                Case studies tell the tale of how your services addressed a specific customer’s pain point(s) and help drive business through social proof that your product really works.
-              </p>
-
-              <a href="work.html" class="btn btn-primary-soft m-5">Book Now</a>
-              <a href="#included_studies" class="text-center mb-4">What's included?</a>
-
-            </a>
-
-            </div>
-          </div>
-
-          <!-- SERVICES CARDS -->
-          <!-- CARD 3: E-BOOKS -->
-          <div class="col-12 col-xl-4 d-flex">
-                
-            <!-- Card -->
-            <div class="card mb-6 mb-xl-0 shadow-light-lg">
-
-            <!-- Badge -->
-            <div class="text-center mb-3">
+              <!-- Badge -->
+              <div class="text-center m-3">
                 <span class="badge badge-pill badge-primary-soft">
                   <span class="h6 text-uppercase">Starting at $600</span>
                 </span>
               </div>
-            
-            <!-- Icon -->
-            <a class="card-img-top" href="#!">
-              <img src="../assets/img/photos/photo-7.jpg" alt="..." class="img-fluid">
-            </a>
-            
-            <!-- Body -->
-            <a class="card-body">
+              
+              <!-- Icon -->
+              <a class="card-img-top">
+                <img src="../assets/img/photos/photo-7.jpg" alt="..." class="img-fluid">
+              </a>
+              
+              <!-- Body -->
+              <a class="card-body">
 
-              <!-- Heading -->
-              <h3>
-                E-Books
-              </h3>
+                <!-- Heading -->
+                <h3>
+                  E-Books
+                </h3>
 
-              <!-- Text -->
-              <p class="mb-0 text-muted">
-                E-books can vary greatly in length depending on the topics you want to cover and how in-depth you want the content to go.
-              </p>
+                <!-- Text -->
+                <p class="mb-0 text-muted">
+                  E-books can vary greatly in length depending on the topics you want to cover and how in-depth you want the content to go.
+                </p>
 
-              <a href="work.html" class="btn btn-primary-soft m-5">Book Now</a>
-              <a href="#included_ebooks" class="text-center mb-4">What's included?</a>
+                <a href="contact.html" class="btn btn-primary-soft mx-5">Book Now</a>
+                <a href="#included_ebooks" class="text-center my-3">What's included?</a>
 
-            </a>
+              </a>
 
+              </div>
             </div>
           </div>
-        </div>
-      </div>
+
+
+      </div> <!-- ./ container -->
     </section>
 
-    <br><br><br><br>
-
     <!-- WHAT'S INCLUDED -->
-    <section class="pt-4 pt-md-11">
+    <section class="p-3 p-md-10">
       <div class="container">
         <div class="row align-items-center">
 
@@ -237,7 +238,7 @@
 
           <div class="col-12">
             <a name="included_blogs"></a>
-            <h3>Blog Posts</h3>
+            <h3 class="font-weight-bold">Blog Posts</h3>
             <p>I write thoroughly researched blog posts designed to drive traffic and new business.  Blog posts range in length depending on your company’s unique needs (see rates below). Each blog posts includes:
               <ul>
                 <li>Search engine optimization based on your company’s desired keywords</li>
@@ -251,7 +252,7 @@
 
             <!-- Buttons -->
             <div class="text-center text-md-left p-4">
-              <a href="#rates" class="btn btn-primary-soft mr-1">
+              <a href="#blog-rates" class="btn btn-primary-soft mr-1">
                 View all rates
               </a>
               <a href="src/pages/contact.html" class="btn btn-primary">
@@ -264,7 +265,7 @@
 
           <div class="col-12">
             <a name="included_studies"></a>
-            <h3>Case Studes</h3>
+            <h3 class="font-weight-bold">Case Studes</h3>
             <p>Case studies tell the tale of how your services addressed a specific customer’s pain point(s) and help drive business through social proof that your product really works. Included in your case study package:
               <ul>
                 <li>Up to 2,000 words</li>
@@ -279,7 +280,7 @@
 
             <!-- Buttons -->
             <div class="text-center text-md-left p-4">
-              <a href="#rates" class="btn btn-primary-soft mr-1">
+              <a href="#study-rates" class="btn btn-primary-soft mr-1">
                 View all rates
               </a>
               <a href="src/pages/contact.html" class="btn btn-primary">
@@ -292,7 +293,7 @@
 
           <div class="col-12">
             <a name="included_ebooks"></a>
-            <h3>E-Books</h3>
+            <h3 class="font-weight-bold">E-Books</h3>
             <p>E-books can vary greatly in length depending on the topics you want to cover and how in-depth you want the content to go. Therefore, we will work together and use your goals to determine how many pages and/or words will be needed for your project. Included in your e-book package:
               <ul>
                 <li>One detailed outline submitted for your approval</li>
@@ -308,7 +309,7 @@
 
             <!-- Buttons -->
             <div class="text-center text-md-left p-4">
-              <a href="#rates" class="btn btn-primary-soft mr-1">
+              <a href="#book-rates" class="btn btn-primary-soft mr-1">
                 View all rates
               </a>
               <a href="src/pages/contact.html" class="btn btn-primary">
@@ -321,11 +322,12 @@
       </div>
     </section>
 
-    <!-- RATES -->
-    <section class="pt-4 pt-md-11">
-      <div class="container">
-        <div class="row align-items-center">
+    <hr class="card-meta-divider">
 
+    <!-- RATES -->
+    <section class="p-3 p-md-6">
+      <div class="container">
+        <div class="row">
           <div class="col-12" data-aos="fade-up">
             <a name="rates"></a>
             <h1 class="display-3 text-left">
@@ -334,9 +336,89 @@
           </div>
         </div>
       </div>
-    </section>
-          
 
+      <div class="container bg-gray-200 pt-4">
+        <div class="row">
+          <div class="col-12" data-aos="fade-up">
+            <a name="blog-rates"></a>
+            <h3 class="font-weight-bold">
+              Blog Posts/Articles
+            </h3>
+            <p>
+              <em>Blog posts can range in length depending on your needs and the scope of the topic.</em>
+                <ul>
+                  <li>Up to 1,000 words: $200</li>
+                  <li>Up to 2,500 words: $400</li>
+                  <li>Over 2,500 words: quoted on a case by case basis</li>
+                </ul>
+            </p>
+          </div>
+        </div><br>
+
+        <div class="row">
+          <div class="col-12" data-aos="fade-up">
+            <a name="study-rates"></a>
+            <h3 class="font-weight-bold">
+              Case Studies
+            </h3>
+            <p>
+              <em>Case studies are billed at a flat rate and include up to 2,000 words.</em>
+                <ul>
+                  <li>Up to 2,000 words: $500</li>
+                </ul>
+            </p>
+          </div>
+        </div><br>
+
+        <div class="row">
+          <div class="col-12" data-aos="fade-up">
+            <a name="book-rates"></a>
+            <h3 class="font-weight-bold">
+              E-books
+            </h3>
+            <p>
+              <em>E-books are billed on a sliding scale and range in price from $600 to $1,200.</em>
+                <ul>
+                  <li>Up to 1,000 words: $600</li>
+                  <li>Up to 2,000 words: $750</li>
+                  <li>Up to 4,000 words: $1,200</li>
+                </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="bg-cover" style="background-image: url(../assets/new-imgs/background-1.svg);">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8 text-center p-5">
+
+            <!-- Heading -->
+            <h2 class="display-4 text-white">
+                Ready to get started?
+            </h2>
+
+            <div class="row justify-content-center text-md-left p-4">
+              <a href="contact.html" class="btn btn-primary">
+                Get a quote
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="card-meta-divider">
+          
+    <!-- FOOTER -->
+    <div class="container">
+      <div class="p-2 col-lg-12 text-center">
+        <h4>&#169 2020 Laura K Davis Writing</h4>
+        <h6>Coded by <a href="https://elizmdavis.design/" target="_blank">Elizabeth Davis</a></h6>
+      </div>
+    </div>
 
   </body>
 </html>

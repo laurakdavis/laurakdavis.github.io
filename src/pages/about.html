@@ -26,64 +26,67 @@
 
     <!-- NAVBAR
     ================================================== -->
-    <nav class="navbar navbar-expand-lg @@classList">
-      <div class="container">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <!-- Brand -->
+          <a class="navbar-brand" href="../../index.html"><img src="../assets/new-imgs/temp-logo.svg" class="navbar-brand-img" alt="..."></a>
+        
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarNavDropdown">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <!-- Brand -->
-        <a class="navbar-brand" href="../../index.html">
-          <!--<img src="@@webRoot/assets/img/brand.svg" class="navbar-brand-img" alt="...">-->
-          <h1>Laura K Davis</h1>
-        </a>
-
-        <!-- Navigation -->
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" id="navbarAbout" href="../../index.html" aria-haspopup="true" aria-expanded="false">
-            Home
-          </a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" id="navbarAbout" href="about.html" aria-haspopup="true" aria-expanded="false">
-            About
-          </a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link" id="navbarWork" href="work.html" aria-haspopup="true" aria-expanded="false">
-            Work
-          </a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link" id="navbarServices" href="services.html" aria-haspopup="true" aria-expanded="false">
-            Services
-          </a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link" id="navbarContact" href="contact.html" aria-haspopup="true" aria-expanded="false">
-            Hire Me
-          </a>
-        </li>
-      </ul>
-
-      </div>
-    </nav>
-
-    <!-- HEADING SECTION -->
-    <section class="p-10 bg-gray-300">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-12 col-md-7 col-lg-6 order-md-1" data-aos="fade-up">
-
-            <!-- Heading -->
-            <h1 class="display-3 text-center text-md-left">
-              <span class="text-primary">Who am I</span>? <br>
-            </h1>
-
-            <!-- Text -->
-            <p class="lead text-center text-md-left text-muted mb-6 mb-lg-8">
-              I’m a writer with a passion for helping the most innovative software brands in the game build their audience and generate new business. I’m fascinated with digital marketing and data analytics and recognize the power that regular, exclusive content can have on a brand’s growth.
-            </p>
-
+          <div class="collapse navbar-collapse" id="navbarToggle">
+              <!-- Navigation -->
+              <ul class="navbar-nav ml-auto" id="nav">
+                <li class="nav-item active">
+                  <a class="nav-link" id="navbarAbout" href="../../index.html" aria-haspopup="true" aria-expanded="false">
+                    Home
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="navbarAbout" href="about.html" aria-haspopup="true" aria-expanded="false">
+                    About
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="navbarWork" href="work.html" aria-haspopup="true" aria-expanded="false">
+                    Work
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="navbarServices" href="services.html" aria-haspopup="true" aria-expanded="false">
+                    Services
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="navbarContact" href="contact.html" aria-haspopup="true" aria-expanded="false">
+                    Hire Me
+                  </a>
+                </li>
+              </ul>
           </div>
+      </nav> 
+    </div>
+
+    <!-- SECTION HEADER -->
+    <section>
+      <div class="bg-cover" style="background-image: url(../assets/new-imgs/background-1.svg);">
+        <div class="container">
+            <div class="row align-items-center">
+              <div class="col-12 col-md-7 col-lg-6 order-md-1 m-6" data-aos="fade-up">
+
+                <!-- Heading -->
+                <h1 class="display-3 text-center text-md-left">
+                  <span class="text-primary">Who am I?</span>
+                </h1>
+
+                <!-- Text -->
+                <p class="lead text-center text-md-left text-white-80">
+                  I’m a writer with a passion for helping the most innovative software brands in the game build their audience and generate new business. I’m fascinated with digital marketing and data analytics and recognize the power that regular, exclusive content can have on a brand’s growth.
+                </p>
+                
+              </div>
+            </div>
         </div> <!-- / .row -->
       </div> <!-- / .container -->
     </section>
@@ -99,7 +102,7 @@
             <h1 class="display-3 text-left">
               <span>Hi, I'm Laura.</span>
             </h1>
-            <p class="lead text-left text-muted mb-6">
+            <p class="lead text-left text-muted-80 mb-6">
               I’m a Boston-based freelance writer (though I’m originally from the Jersey Shore). I graduated from Boston University with a Bachelor of Science in Mass Communication and a specialization in Public Relations. My interests include iced coffee, reading books and listening to podcasts about personal development, my two fluffy orange cats, and Taylor Swift.
             </p>
           </div>
@@ -115,7 +118,7 @@
             <h1 class="display-3 text-left">
               My Background
             </h1>
-            <p class="lead text-left text-muted mb-6">
+            <p class="lead text-left text-muted-80 mb-6">
               I’ve been a writer since I could hold a pencil, but I became interested in writing about digital marketing specifically in 2017 when I joined the team at Esri, one of the leading B2B GIS software companies in the world. In my role, I worked across three teams: paid advertising, search engine optimization and social media. I helped manage a huge advertising budget, optimized the website and ads for best results in search and generated gripping social media content across Twitter, Instagram and LinkedIn. I quickly became obsessed with the incredible work done by SaaS companies and it became my mission to use the power of content to drive traffic and generate leads for cutting-edge software brands.
             </p>
           </div>
@@ -153,7 +156,7 @@
                     </h3>
 
                     <!-- Text -->
-                    <p class="mb-0 text-muted">
+                    <p class="mb-0 text-muted-80">
                       Cozy vibes are out and this summer you should focus on making customer's feel brave.
                     </p>
 
@@ -182,7 +185,7 @@
                   Case Studies
                 </h3>
                 <!-- Text -->
-                <p class="mb-0 text-muted">
+                <p class="mb-0 text-muted-80">
                   Cozy vibes are out and this summer you should focus on making customer's feel brave.
                 </p>
                 
@@ -213,7 +216,7 @@
                 </h3>
 
                 <!-- Text -->
-                <p class="mb-0 text-muted">
+                <p class="mb-0 text-muted-80">
                   Cozy vibes are out and this summer you should focus on making customer's feel brave.
                 </p>
 
