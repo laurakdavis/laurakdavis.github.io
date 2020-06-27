@@ -143,7 +143,7 @@ a {
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: #133bbd;
+    color: #7360B7;
     text-decoration: underline; }
 
 a:not([href]) {
@@ -10552,7 +10552,8 @@ a.text-white:hover, a.text-white:focus {
   .container {
     min-width: 992px !important; }
   .navbar {
-    display: none; }
+    display: none;
+    z-index: 9999; }
   .badge {
     border: 1px solid #161C2D; }
   .table {
@@ -11514,7 +11515,7 @@ a.card, a.card-body, a.card-footer, a.card-meta {
   transition: all 0.2s ease-in-out;
   -webkit-transition-property: background-color, color;
   transition-property: background-color, color;
-  z-index: 1030; }
+  z-index: 9999; }
 
 @media (max-width: 991.98px) {
   .navbar-dark .navbar-nav .nav-item .nav-link {
