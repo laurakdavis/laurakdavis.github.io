@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="500px" height="74px" viewBox="0 0 500 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="472px" height="74px" viewBox="0 0 472 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>temp-logo</title>
-    <g id="temp-logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="AvenirNext-Bold, Avenir Next" font-size="50" font-weight="bold">
-        <text id="LauraKDavis-Writing" fill="#AA7DCE">
-            <tspan x="10" y="53">LauraKDavis</tspan>
-            <tspan x="311.9" y="53" font-family="AvenirNext-Regular, Avenir Next" font-weight="normal"> Writing</tspan>
+    <g id="temp-logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#AA7DCE" stroke-width="3" fill="#FFFFFF" x="1.5" y="1.5" width="469" height="71" rx="8"></rect>
+        <text id="Laura-Davis-Writing" font-family="AvenirNext-Bold, Avenir Next" font-size="48" font-weight="bold" fill="#AA7DCE">
+            <tspan x="16" y="52">Laura Davis</tspan>
+            <tspan x="283.696" y="52" font-family="AvenirNext-Regular, Avenir Next" font-weight="normal">Writing</tspan>
         </text>
     </g>
 </svg>
